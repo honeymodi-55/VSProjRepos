@@ -1,5 +1,5 @@
 pipeline {
-    agent any {
+    agent any 
         stages {
             stage ('compliling Java program')
             {
@@ -13,6 +13,5 @@ pipeline {
                     sh 'java HelloWorld'
                 }
             }
-        }
-    }
+        }       
 }
